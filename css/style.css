@@ -37,9 +37,9 @@ a {
 
 :root {
     --main-color: #b4afc6;
-    --extra-color: #00c0ff;
-    --font-family-main: 'Open Sans', sans-serif;
-    --font-family-extra: 'Poppins', sans-serif;
+    --extra-color: #fff;
+    --font-family-extra: 'Raleway', sans-serif;
+    --font-family-main: 'Montserrat', sans-serif;
 }
 
 html {
@@ -57,9 +57,9 @@ body {
     letter-spacing: 0px;
     word-wrap: break-word;
     font-weight: 400;
-    background-color: #1e1345;
+    background-color: #000;
     color: var(--main-color);
-    background-image: url(..//img/hero/1.jpg);
+    /* background-image: url(..//img/hero/1.jpg); */
 }
 
 svg {
@@ -456,7 +456,7 @@ h6 {
 }
 
 .foliox_tm_header.animate {
-    background-color: #1e1345;
+    background-color: #0D1B2A;
     padding: 30px 0px;
 }
 
@@ -519,6 +519,8 @@ h6 {
 
 .foliox_tm_header .menu ul li.current a {
     color: var(--extra-color);
+    font-weight: bold;
+    transition: all .3s;
 }
 
 .foliox_tm_header .social {
@@ -590,7 +592,7 @@ h6 {
 }
 
 .foliox_tm_hero .name span {
-    color: var(--extra-color);
+    color: #0D1B2A;
 }
 
 .foliox_tm_hero .job {
@@ -607,12 +609,15 @@ h6 {
     clear: both;
     float: left;
 }
-
+.title{
+    color: #000;
+}
 .foliox_tm_button a {
     font-family: var(--font-family-extra);
-    color: #fff;
+    color: #000;
     display: inline-block;
-    background-color: var(--extra-color);
+    /* background-color: var(--extra-color); */
+    background-color: #fff;
     padding: 18px 43px;
     border-radius: 50px;
     overflow: hidden;
@@ -702,7 +707,7 @@ h6 {
     clear: both;
     float: left;
     position: relative;
-    background-color: #3a2b71;
+    background-color: #fff;
     border-radius: 10px;
     padding: 60px;
 }
@@ -971,7 +976,7 @@ h6 {
 .foliox_tm_counter .counter_list ul li {
     margin: 0px 0px 50px 0px;
     padding-left: 25px;
-    width: 25%;
+    width: 33%;
 }
 
 .foliox_tm_counter .counter_list ul li .list_inner {
@@ -980,7 +985,7 @@ h6 {
     clear: both;
     float: left;
     position: relative;
-    background-color: #432d92;
+    background-color: #0D1B2A;
     border-radius: 10px;
     padding: 70px;
     display: flex;
@@ -1107,7 +1112,7 @@ h6 {
     border-bottom-left-radius: 50px;
     position: relative;
     top: 0px;
-    background-color: var(--extra-color);
+    background-color: #0D1B2A;
 }
 
 .progress_inner .background .bar {
@@ -1194,7 +1199,7 @@ h6 {
     clear: both;
     float: left;
     position: relative;
-    background-color: #3a2b71;
+    background-color: #fff;
     border-radius: 10px;
     text-align: center;
     padding: 105px 65px 70px 65px;
@@ -1206,7 +1211,7 @@ h6 {
     width: 65px;
     height: 65px;
     border-radius: 100%;
-    background-color: #432d92;
+    background-color: #0D1B2A;
     margin-bottom: 53px;
 }
 
@@ -1229,7 +1234,8 @@ h6 {
 
 .foliox_tm_services .list ul li .list_inner:hover .icon:before {
     transform: scale(1);
-    background-color: var(--extra-color);
+    /* background-color: var(--extra-color); */
+    background-color: #0D1B2A;
 }
 
 .foliox_tm_services .list ul li .icon .svg {
@@ -1238,7 +1244,8 @@ h6 {
     position: absolute;
     top: -50%;
     left: -40%;
-    color: var(--extra-color);
+    /* color: var(--extra-color); */
+    color: #0D1B2A;
     z-index: 2;
 
     -webkit-transition: all .3s ease;
@@ -1361,7 +1368,7 @@ h6 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #fff;
+    color: #000;
 }
 
 .resume_list .resume_title {
@@ -2002,7 +2009,7 @@ h6 {
     height: auto;
     clear: both;
     float: left;
-    background-color: #432d92;
+    background-color: #0D1B2A;
     border-radius: 12px;
     padding: 70px 0px;
 }
@@ -2109,7 +2116,7 @@ h6 {
 }
 
 .foliox_tm_news .news_list ul li .details {
-    background-color: #3a2b71;
+    background-color: #0D1B2A;
     width: 100%;
     float: left;
     padding: 28px 35px;
@@ -2295,7 +2302,7 @@ h6 {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 24px;
-    color: #fff;
+    color: #000;
 }
 
 .foliox_tm_contact .left .short {
@@ -2443,7 +2450,7 @@ input[type=number] {
     clear: both;
     float: left;
     position: relative;
-    background-color: #432d92;
+    background-color: #0D1B2A;
     display: flex;
     align-items: center;
     padding: 83px 90px 86px 90px;
@@ -2692,7 +2699,7 @@ input[type=number] {
     }
 
     .foliox_tm_header .logo img {
-        max-width: 160px;
+        max-width: 360px;
         max-height: 60px;
     }
 
